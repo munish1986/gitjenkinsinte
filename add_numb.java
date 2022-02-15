@@ -2,14 +2,7 @@
 import java.util.Scanner;
 public class add_numb {
 	public static void main(String[] args) {
-	    int x, y, sum;
-	    Scanner myObj = new Scanner(System.in); // Create a Scanner object
-	    System.out.println("Type a number:");
-	    x = myObj.nextInt(); // Read user input
-
-	    System.out.println("Type another number:");
-	    y = myObj.nextInt(); // Read user input
-
+	    int x=1, y=2, sum;
 	    sum = x + y;  // Calculate the sum of x + y
 	    System.out.println("Sum is: " + sum); // Print the sum
 	  }
